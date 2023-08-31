@@ -1,0 +1,19 @@
+{
+  "name": "@villa-ui/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@villa-ui/tokens": "*",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}

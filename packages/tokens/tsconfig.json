@@ -1,0 +1,4 @@
+{
+  "extends": "@villa-ui/ts-config/base.json",
+  "include": ["src"]
+}

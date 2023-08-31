@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages":"changeset version",
+    "realese": "turbo run build && changeset publish"
+  },
+  "workspaces": [
+    "packages/**"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.13"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  }
+}
